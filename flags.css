@@ -1,0 +1,82 @@
+* {
+  background-color: lightslategray;
+}
+
+#germany {
+  width: 180px;
+  height: 120px;
+  position: relative;
+  margin: 20px;
+}
+
+#france {
+  width: 180px;
+  height: 120px;
+  position: relative;
+  margin: 20px;
+  background-color: white;
+}
+
+#firstrow {
+  height: 40px;
+  background-color: black;
+}
+
+#secondrow {
+  height: 40px;
+  background-color: red;
+}
+
+#thirdrow {
+  height: 40px;
+  background-color: yellow;
+}
+
+#firstcolumn,
+#secondcolumn,
+#thirdcolumn {
+  float: left;
+  display: inline;
+}
+
+#firstcolumn {
+  width: 60px;
+  height: 120px;
+  background-color: blue;
+}
+
+#secondcolumn {
+  width: 60px;
+  height: 120px;
+  background-color: white;
+}
+
+#thirdcolumn {
+  width: 60px;
+  height: 120px;
+  background-color: red;
+}
+
+#germany:hover > #firstrow {
+  background-color: red;
+}
+
+#germany:hover > #secondrow {
+  background-color: white;
+}
+
+#germany:hover > #thirdrow {
+  background-color: green;
+}
+
+#france:hover > #firstcolumn {
+  background-color: green;
+}
+
+#france:hover > #secondcolumn {
+  background-color: white;
+}
+
+#france:hover > #thirdcolumn {
+  background-color: orange;
+}
